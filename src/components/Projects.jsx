@@ -1,21 +1,24 @@
 import React from 'react';
+import img1 from "../assets/projects/img1.png"
+import img2 from "../assets/projects/img2.png"
+import img3 from "../assets/projects/img3.png"
 
 const Projects = () => {
   const projects=[
     {
       title: "TWINDER",
       description: "A live Geolocation app for finding tweets and twitter users around you.",
-      photo: "/src/assets/projects/img1.png"
+      photo: img1
     },
     {
       title: "LIVENTS",
       description: "A video streaming app with live Geolocation for for streaming events.",
-      photo: "/src/assets/projects/img2.png"
+      photo: img2
     },
     {
       title: "MOOVE",
       description: "Mobile app for booking instant pickup and dropoff across major cities.",
-      photo: "/src/assets/projects/img3.png"
+      photo: img3
     },
   ];
   return (

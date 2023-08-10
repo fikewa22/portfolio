@@ -1,15 +1,19 @@
 import React from 'react';
 import Services from './Services';
+import photo1 from "../assets/icons/ruler-pen.png"
+import photo2 from "../assets/icons/code.png"
+import photo3 from "../assets/icons/android.png"
+import photo4 from "../assets/icons/web-scraping.png"
 
 const About = () => {
   const skills = [
-    {name: 'WIX DESIGNER', image: '/src/assets/icons/ruler-pen.png'},
-    {name: 'WEB DEVELOPMENT', image: '/src/assets/icons/code.png'},
-    {name: 'MOBILE DEVELOPMENT', image: '/src/assets/icons/android.png'},
-    {name: 'WEB SCRAPING WITH PYTHON', image: '/src/assets/icons/web-scraping.png'}
+    {name: 'WIX DESIGNER', image: photo1},
+    {name: 'WEB DEVELOPMENT', image: photo2},
+    {name: 'MOBILE DEVELOPMENT', image: photo3},
+    {name: 'WEB SCRAPING WITH PYTHON', image: photo4}
   ];
   return (
-    <div className="md:px-10 px-7 sm:-mt-24" id="about">
+    <div className="md:px-10 sm:mt-24 px-7" id="about">
       <h1 className="text-primary font-semibold text-3xl mt-5">About me </h1>
       <p className="my-3 text-white md:w-2/3 leading-[2]">
       Hi. My name is Abdul-Qudus Olatunji. I am a versatile professional, excelling as a Freelance Wix Designer, Frontend Developer, and Content Writer. With a passion for creativity and technology, I craft captivating content for diverse brands while also building responsive and dynamic websites. My expertise lies in seamlessly blending design and development to deliver exceptional online experiences.
