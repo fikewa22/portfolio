@@ -36,7 +36,6 @@ body {
   height: 338px;
   background: transparent;
   border: 3px solid #0047AB;
-  filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.2));
   border-radius: 16px;
 }
 
@@ -45,5 +44,5 @@ body {
 }
 
 .service-card:hover{
-  border-color: deepskyblue;
+  border-color: #B3B3BD;
 }

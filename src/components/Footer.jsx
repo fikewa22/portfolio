@@ -7,11 +7,11 @@ import email from "../assets/socials/sms.png";
 const Footer = () => {
   return (
     <div className="md:px-10 px-7 mt-24">
-      <div className="text-white opacity-50 flex flex-col md:flex-row justify-between items-center my-5">
+      <div className="text-white flex flex-col md:flex-row justify-between items-center my-5">
         <p>@ Copyright 2023 | Abdul-Qudus Olatunji</p>
         <p className="hidden sm:block">Frontend Developer</p>
         <p className="hidden sm:block">Wix Designer</p>
-        <p className="hidden sm:block">Content Writer</p>
+        {/* <p className="hidden sm:block">Content Writer</p> */}
       </div>
       {/* social media */}
       <div className="flex mb-5 justify-center md:justify-start ">
@@ -30,14 +30,14 @@ const Footer = () => {
         >
           <img src={instagram} alt="" />
         </a>
-        <a
+        {/* <a
           className="ml-4"
           href="mailto:fikewaolatunji@gmail.com"
           target="_blank"
           rel="noreferrer"
         >
           <img src={dribbble} alt="" />
-        </a>
+        </a>*/}
         <a
           className="ml-4"
           href="mailto:fikewaolatunji@gmail.com"

@@ -18,7 +18,7 @@ const Contact = () => {
         <div className='flex'>
           <a href="https://www.facebook.com/fikewa?mibextid=LQQJ4d" className='ml-4'><img src={facebook} alt="" /></a>
           <a href="https://instagram.com/olat_fikewa?igshid=OGQ5ZDc2ODk2ZA==" className='ml-4'><img src={instagram} alt="" /></a>
-          <a href="dribble.com" className='ml-4'><img src={dribbble} alt="" /></a>
+          {/* <a href="dribble.com" className='ml-4'><img src={dribbble} alt="" /></a> */}
           <a href="mailto:fikewaolatunji@gmail.com" className='ml-4'><img src={email} alt="" /></a>
         </div>
         </div>

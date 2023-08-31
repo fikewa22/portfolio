@@ -5,7 +5,7 @@ const Services = () => {
     return (
         <div>
             <h1 className='text-primary font-semibold text-3xl mt-14'>The Services I offer</h1>
-            <div className='grid grid-cols-3 gap-5 my-8'>
+            <div className='grid md:grid-cols-3 gap-5 my-8'>
                 {
                     services.map(service=> <div key={service.id} className='service-card flex flex-col justify-center items-center p-6 text-center text-black'>
                         <img src={service.image} alt="" className='mb-3'/>
