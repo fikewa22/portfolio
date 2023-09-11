@@ -1,7 +1,7 @@
 import React from 'react';
-import facebook from '../assets/socials/facebook.png'
-import instagram from '../assets/socials/instagram.png'
-import dribbble from '../assets/socials/dribbble.png'
+import github from '../assets/socials/github.svg'
+import twitter from '../assets/socials/twitter.svg'
+import linkedin from '../assets/socials/linkedin.svg'
 import email from '../assets/socials/sms.png'
 
 const Contact = () => {
@@ -16,9 +16,9 @@ const Contact = () => {
 
         {/* social icons */}
         <div className='flex'>
-          <a href="https://www.facebook.com/fikewa?mibextid=LQQJ4d" className='ml-4'><img src={facebook} alt="" /></a>
-          <a href="https://instagram.com/olat_fikewa?igshid=OGQ5ZDc2ODk2ZA==" className='ml-4'><img src={instagram} alt="" /></a>
-          {/* <a href="dribble.com" className='ml-4'><img src={dribbble} alt="" /></a> */}
+          <a href="https://github.com/fikewa22" className='ml-4'><img src={github} alt="" /></a>
+          <a href="https://twitter.com/fikewa22" className='ml-4'><img src={twitter} alt="" /></a>
+          <a href="https://www.linkedin.com/in/abdul-qudus-olatunji-07ba83114/" className='ml-4'><img src={linkedin} alt="" /></a>
           <a href="mailto:fikewaolatunji@gmail.com" className='ml-4'><img src={email} alt="" /></a>
         </div>
         </div>

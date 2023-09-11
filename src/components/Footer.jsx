@@ -1,7 +1,7 @@
 import React from "react";
-import facebook from "../assets/socials/facebook.png";
-import instagram from "../assets/socials/instagram.png";
-import dribbble from "../assets/socials/dribbble.png";
+import github from "../assets/socials/github.svg";
+import twitter from "../assets/socials/twitter.svg";
+import linkedin from "../assets/socials/linkedin.svg";
 import email from "../assets/socials/sms.png";
 
 const Footer = () => {
@@ -16,28 +16,28 @@ const Footer = () => {
       {/* social media */}
       <div className="flex mb-5 justify-center md:justify-start ">
         <a
-          href="https://www.linkedin.com/in/abdul-qudus-olatunji-07ba83114/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={facebook} alt="" />
-        </a>
-        <a
-          className="ml-4"
           href="https://github.com/fikewa22"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={instagram} alt="" />
+          <img src={github} alt="" />
         </a>
-        {/* <a
+        <a
           className="ml-4"
-          href="mailto:fikewaolatunji@gmail.com"
+          href="https://twitter.com/fikewa22"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={dribbble} alt="" />
-        </a>*/}
+          <img src={twitter} alt="" />
+        </a>
+        <a
+          className="ml-4"
+          href="https://www.linkedin.com/in/abdul-qudus-olatunji-07ba83114/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={linkedin} alt="" />
+        </a>
         <a
           className="ml-4"
           href="mailto:fikewaolatunji@gmail.com"
