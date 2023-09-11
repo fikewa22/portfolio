@@ -31,7 +31,7 @@ body {
 .skills:first-child:hover {
   background: #bdbdbd;
 }
-.service-card {
+.tool-card {
   width: auto;
   height: auto;
   background: transparent;
@@ -39,10 +39,10 @@ body {
   border-radius: 16px;
 }
 
-.service-card:nth-child(even){
+.tool-card:nth-child(even){
   border: 3px solid white;
 }
 
-.service-card:hover{
+.tool-card:hover{
   border-color: #B3B3BD;
 }

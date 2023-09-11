@@ -1,5 +1,5 @@
 import React from 'react';
-import Services from './Services';
+import Tools from './Tools';
 import photo1 from "../assets/icons/ruler-pen.png"
 import photo2 from "../assets/icons/code.png"
 import photo3 from "../assets/icons/git-repo.png"
@@ -14,7 +14,7 @@ const About = () => {
   ];
   return (
     <div className="md:mt-56 md:px-10 sm:mt-24 px-7" id="about">
-      <h1 className="text-primary font-semibold text-3xl mt-5">About me </h1>
+      <h1 className="text-primary font-semibold text-3xl mt-8">About me </h1>
       <p className="my-3 text-l text-black md:text-justify md:w-2/3 leading-[2]">
       Hi. My name is Abdul-Qudus Olatunji. I am a versatile professional, excelling as a Freelance Wix Designer and Frontend Developer.I specialize in crafting captivating user interfaces with HTML, CSS, and JavaScript, while also utilizing frameworks like ReactJS. My skills extend to creating responsive designs with Bootstrap, practicing version control with Git and GitHub, and collaborating seamlessly within teams for efficient web development.</p>
       {/* experience section */}
@@ -31,8 +31,8 @@ const About = () => {
           </div>)
         }
        </div>
-       {/* services card */}
-       <Services/>
+       {/* Tools card */}
+       <Tools/>
     </div>
   );
 };

@@ -40,6 +40,7 @@ const Home = () => {
 
       {/* Divider */}
       <div className='h-24 bg-[#181824] w-full mx-auto absolute left-0 hidden md:block'></div>
+      <div className='h-[5px] bg-white md:hidden w-44 absolute right-0 rounded-[4px] my-8'></div>
     </div>
   );
 };
