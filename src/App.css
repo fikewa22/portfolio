@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 body {
   font-family: "Poppins", sans-serif;
-  background: #6495ED;
+  background: #DDD0C8;
 }
 
 .btn1 {
@@ -35,14 +35,15 @@ body {
   width: auto;
   height: auto;
   background: transparent;
-  border: 3px solid #0047AB;
+  border: 3px solid white;
   border-radius: 16px;
 }
 
-.tool-card:nth-child(even){
-  border: 3px solid white;
-}
+/* .tool-card:nth-child(even){
+  border: 3px solid ;
+} */
 
 .tool-card:hover{
-  border-color: #B3B3BD;
+  background-color:#063147;
+  border-color: #063147;
 }

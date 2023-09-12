@@ -13,7 +13,7 @@ const Home = () => {
   };
 
   return (
-    <div className='md:px-10 px-7 my-10 md:h-full bg-[#6495ED]' id='home'>
+    <div className='md:px-10 px-7 my-10 md:h-full' id='home'>
       <div className='flex flex-col md:flex-row items-center justify-between w-full'>
         {/* Text Content */}
         <div className='text-black'>
@@ -40,7 +40,7 @@ const Home = () => {
 
       {/* Divider */}
       <div className='h-24 bg-[#181824] w-full mx-auto absolute left-0 hidden md:block'></div>
-      <div className='h-[5px] bg-white md:hidden w-44 absolute right-0 rounded-[4px] my-8'></div>
+      <div className='h-[5px] bg-black md:hidden w-44 absolute right-0 rounded-[4px] my-8'></div>
     </div>
   );
 };

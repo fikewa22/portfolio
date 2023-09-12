@@ -29,7 +29,7 @@ const Header = () => {
       mt-4 md:mt-0 md:pl-0 pl-9 bg-slate-400 bg-transparent transition-all duration-500 ease-in ${open? "top-12" : "top-[-490px]"}`}>
         {
         Links.map(link => <li key={link.name} className='md:ml-8 md:my-0 my-7 font-semibold cursor-pointer'>
-          <Link to={link.link} activeClass='active' smooth={true} spy={true} offset={-80} className='text-white transition-all duration-500 hover:text-primary'>
+          <Link to={link.link} activeClass='active' smooth={true} spy={true} offset={-80} className='text-black transition-all duration-500 hover:text-white'>
             {link.name}</Link>
         </li>)
         }

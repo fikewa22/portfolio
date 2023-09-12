@@ -7,7 +7,7 @@ import email from "../assets/socials/sms.png";
 const Footer = () => {
   return (
     <div className="md:px-10 px-7 mt-24">
-      <div className="text-white flex flex-col md:flex-row justify-between items-center my-5">
+      <div className="text-black flex flex-col md:flex-row justify-between items-center my-5">
         <p>@ Copyright 2023 | Abdul-Qudus Olatunji</p>
         <p className="hidden sm:block">Frontend Developer</p>
         <p className="hidden sm:block">Wix Designer</p>

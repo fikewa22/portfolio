@@ -14,6 +14,7 @@ const Tools = () => {
                     </div>)
                 }
             </div>
+            <div className='h-[5px] bg-black md:hidden w-44 absolute left-0 rounded-[4px] my-8'></div>
         </div>
     );
 };

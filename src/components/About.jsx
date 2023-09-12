@@ -20,7 +20,7 @@ const About = () => {
       {/* experience section */}
       <div className="md:flex my-7 items-center">
         <div className="text-primary text-8xl font-bold">2+</div>
-        <p className="text-white text-2xl md:ml-5">Years of experience. Specialized in building interactive and responsive web applications ensuring a seamless web experience for users.</p>
+        <p className="text-black text-2xl md:ml-5">Years of experience. Specialized in building interactive and responsive web applications ensuring a seamless web experience for users.</p>
       </div>
        {/* Skills card */}
        <div className='flex flex-col md:flex-row'>
