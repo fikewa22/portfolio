@@ -19,7 +19,7 @@ const About = () => {
       Hi. My name is Abdul-Qudus Olatunji. I am a versatile professional, excelling as a Freelance Wix Designer and Frontend Developer.I specialize in crafting captivating user interfaces with HTML, CSS, and JavaScript, while also utilizing frameworks like ReactJS. My skills extend to creating responsive designs with Bootstrap, practicing version control with Git and GitHub, and collaborating seamlessly within teams for efficient web development.</p>
       {/* experience section */}
       <div className="md:flex my-7 items-center">
-        <div className="text-primary text-8xl font-bold">2+</div>
+        <div className="text-primary text-8xl font-bold">1+</div>
         <p className="text-black text-2xl md:ml-5">Years of experience. Specialized in building interactive and responsive web applications ensuring a seamless web experience for users.</p>
       </div>
        {/* Skills card */}
