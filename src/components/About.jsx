@@ -25,7 +25,7 @@ const About = () => {
        {/* Skills card */}
        <div className='flex flex-col md:flex-row'>
         {
-          skills.map((skill,index)=> <div key={index} className='md:w-[256px] md:h-[254px] bg-primary hover:bg-tertiary flex flex-col items-baseline justify-end my-3 md:m-3 p-5 shadow-sm transition-all duration-500'>
+          skills.map((skill,index)=> <div key={index} className='md:w-[256px] md:h-[254px] bg-primary hover:bg-tertiary flex flex-col items-baseline justify-end my-3 md:m-3 p-5 shadow-sm transition-all duration-500 hover:-rotate-3 hover:scale-110'>
           <img src={skill.image} alt="" />
           <p className='text-2xl font-semibold text-white mt-3'>{skill.name}</p>
           </div>)

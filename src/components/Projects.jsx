@@ -17,7 +17,7 @@ const Projects = () => {
       description: "A brief exploration of the fascinating world of feline creatures, from domestic cats to their wild counterparts, in a simple and informative format.",
       photo: img2,
       live: "https://felidae.vercel.app/",
-      repo: "https://github.com/fikewa22/robofriends.git"
+      repo: "https://github.com/fikewa22/felidae.git"
     },
     {
       title: "LEAPCURE",
@@ -33,11 +33,11 @@ const Projects = () => {
       <p className='text-black my-2 md:w-2/3 leading-[2]'>
 I have worked on many projects over the course of being a web developer. Here are a few of my live, real-world projects. </p>
 {/* Featured Projects */}
-<div className="grid grid-cols-1 md:grid-cols-3 md:gap-[100px] sm:mx-9 my-6 items-center justify-center">
+<div className="flex flex-col md:flex-row md:gap-x-2 sm:mx-9 my-6 items-center justify-center md:relative">
   {
     projects.map((project,index)=> <div
     key={index}
-    className="flex flex-col shadow-sm md:h-[450px] md:w-96 md:gap-x-10 bg-white p-4 rounded-xl justify-start items-center my-5"
+    className="flex flex-col shadow-sm md:h-[480px] md:w-96 md:gap-x-5 bg-white p-4 rounded-xl justify-start items-center my-5"
   >
     <a
       href={project.photo}
@@ -50,8 +50,8 @@ I have worked on many projects over the course of being a web developer. Here ar
     <h3 className="text-primary font-semibold text-xl">
       {project.title}
     </h3>
-    <p className="relative text-black mt-1 leading-[2]">{project.description}</p>
-    <div className="flex flex-col md:block justify-start items-center mt-5 md:mt-[350px] md:absolute">
+    <p className=" text-black mt-1 leading-[2]">{project.description}</p>
+    <div className="flex flex-auto justify-center flex-col md:flex-row items-center mt-5 md:mt-[385px] md:absolute">
       <a href={project.live}><button className="btn transition-all duration-500 bg-primary py-2 px-6 rounded text-white hover:bg-white hover:text-primary">
 View Live</button></a>
       <a href={project.repo}><button className="btn outline py-1.5 px-9 rounded border-none ml-5 text-black ">
