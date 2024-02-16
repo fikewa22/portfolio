@@ -23,21 +23,21 @@ const Projects = () => {
     },
     {
       title: "LEAPCURE",
-      description: "A patient-centered platform bridging the gap between clinical trials and those who need them most, fostering equitable research through patient advocacy.",
+      description: "Leapcure connects patients with clinical trials, promoting equitable research through advocacy, bridging gaps in access to potentially life-saving studies.  ",
       photo: img3,
       live: "https://leapcure.vercel.app/",
       repo: "https://github.com/fikewa22/leapcure.git"
     },
     {
       title: "PROMPTOPIA",
-      description: "Promptopia is an open-source AI prompting tool for modern world to discover, create and share creative prompts ",
+      description: "Promptopia is an open-source AI tool designed to explore, craft, and share innovative prompts for creative projects worldwide. ",
       photo: img4,
       live: "https://promptopia-fikewa.vercel.app/",
       repo: "https://github.com/fikewa22/Promptopia.git"
     },
     {
       title: "HiLink",
-      description: "Promptopia is an open-source AI prompting tool for modern world to discover, create and share creative prompts ",
+      description: "Hilink is your adventure companion, offering offline maps and a global journey experience in one app, ensuring you never get lost.",
       photo: img5,
       live: "https://travel-fikewa.vercel.app/",
       repo: "https://github.com/fikewa22/travel.git"
@@ -49,7 +49,7 @@ const Projects = () => {
       <p className='text-black my-2 md:w-2/3 leading-[2]'>
 I have worked on many projects over the course of being a web developer. Here are a few of my live, real-world projects. </p>
 {/* Featured Projects */}
-<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5 my-6 items-center justify-center">
+<div className="grid grid-cols-1 md:grid-cols-2 gap-x-5 lg:grid-cols-2 xl:grid-cols-3 gap-y-5 my-6 items-center justify-center text-justify">
   {projects.map((project,index)=> <div
     key={index}
     className="flex flex-col shadow-sm md:h-[480px] md:w-96 md:gap-x-5 bg-white p-4 rounded-xl justify-start items-center my-5"
