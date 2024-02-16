@@ -2,6 +2,8 @@ import React from 'react';
 import img1 from "../assets/projects/img1.png"
 import img2 from "../assets/projects/img2.png"
 import img3 from "../assets/projects/img3.png"
+import img4 from "../assets/projects/img4.png"
+import img5 from "../assets/projects/img5.png"
 
 const Projects = () => {
   const projects=[
@@ -25,6 +27,20 @@ const Projects = () => {
       photo: img3,
       live: "https://leapcure.vercel.app/",
       repo: "https://github.com/fikewa22/leapcure.git"
+    },
+    {
+      title: "PROMPTOPIA",
+      description: "Promptopia is an open-source AI prompting tool for modern world to discover, create and share creative prompts ",
+      photo: img4,
+      live: "https://promptopia-fikewa.vercel.app/",
+      repo: "https://github.com/fikewa22/Promptopia.git"
+    },
+    {
+      title: "HiLink",
+      description: "Promptopia is an open-source AI prompting tool for modern world to discover, create and share creative prompts ",
+      photo: img5,
+      live: "https://travel-fikewa.vercel.app/",
+      repo: "https://github.com/fikewa22/travel.git"
     }
   ];
   return (
@@ -33,9 +49,8 @@ const Projects = () => {
       <p className='text-black my-2 md:w-2/3 leading-[2]'>
 I have worked on many projects over the course of being a web developer. Here are a few of my live, real-world projects. </p>
 {/* Featured Projects */}
-<div className="flex flex-col md:flex-row md:gap-x-2 sm:mx-9 my-6 items-center justify-center md:relative">
-  {
-    projects.map((project,index)=> <div
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-5 my-6 items-center justify-center">
+  {projects.map((project,index)=> <div
     key={index}
     className="flex flex-col shadow-sm md:h-[480px] md:w-96 md:gap-x-5 bg-white p-4 rounded-xl justify-start items-center my-5"
   >

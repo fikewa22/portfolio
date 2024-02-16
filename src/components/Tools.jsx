@@ -3,9 +3,9 @@ import tools from '../../dist/tools'
 
 const Tools = () => {
     return (
-        <div>
+        <div className='gap-2 border-2 border-red-600'>
             <h1 className='text-primary font-semibold text-3xl mt-14'>The Tools I work with</h1>
-            <div className='grid grid-cols-3 gap-5 sm:grid-cols-3 md:grid-cols-6 my-8 md:mx-40'>
+            <div className='grid grid-cols-2 gap-5 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-6 my-8 md:mx-40 sm:items-center sm:justify-center'>
                 {
                     tools.map(tool=> <div key={tool.id} className='tool-card transform hover: transition duration-500 hover:scale-125 flex flex-col w-24 h-28 justify-center items-center p-6 text-center text-black bg-tertiary'>
                         <img src={tool.image} alt="" className='mb-3'/>
