@@ -49,7 +49,7 @@ const Projects = () => {
       <p className='text-black my-2 md:w-2/3 leading-[2]'>
 I have worked on many projects over the course of being a web developer. Here are a few of my live, real-world projects. </p>
 {/* Featured Projects */}
-<div className="grid grid-cols-1 md:grid-cols-2 gap-x-5 lg:grid-cols-2 xl:grid-cols-3 gap-y-5 my-6 items-center justify-center text-justify">
+<div className="grid grid-cols-1 md:grid-cols-2 gap-x-5 lg:grid-cols-2 xl:grid-cols-3 gap-y-5 my-6 place-items-center text-justify">
   {projects.map((project,index)=> <div
     key={index}
     className="flex flex-col shadow-sm md:h-[480px] md:w-96 md:gap-x-5 bg-white p-4 rounded-xl justify-start items-center my-5"

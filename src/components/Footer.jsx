@@ -11,7 +11,6 @@ const Footer = () => {
         <p>@ Copyright 2023 | Abdul-Qudus Olatunji</p>
         <p className="hidden sm:block">Frontend Developer</p>
         <p className="hidden sm:block">Wix Designer</p>
-        {/* <p className="hidden sm:block">Content Writer</p> */}
       </div>
       {/* social media */}
       <div className="flex mb-5 justify-center md:justify-start ">
