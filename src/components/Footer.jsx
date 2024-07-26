@@ -10,16 +10,12 @@ const Footer = () => {
       <div className="text-black flex flex-col md:flex-row justify-between items-center my-5">
         <p>@ Copyright 2023 | Abdul-Qudus Olatunji</p>
         <p className="hidden sm:block">Frontend Developer</p>
-        <p className="hidden sm:block">Wix Designer</p>
+        {/* <p className="hidden sm:block">Wix Designer</p> */}
       </div>
       {/* social media */}
       <div className="flex mb-5 justify-center md:justify-start ">
-        <a
-          href="https://github.com/fikewa22"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={github} alt="" />
+        <a href="https://github.com/fikewa22" target="_blank" rel="noreferrer">
+          <img src={github} alt="Abdul-Qudus Olatunji" />
         </a>
         <a
           className="ml-4"
@@ -27,7 +23,7 @@ const Footer = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={twitter} alt="" />
+          <img src={twitter} alt="Abdul-Qudus Olatunji" />
         </a>
         <a
           className="ml-4"
@@ -35,7 +31,7 @@ const Footer = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={linkedin} alt="" />
+          <img src={linkedin} alt="Abdul-Qudus Olatunji" />
         </a>
         <a
           className="ml-4"
@@ -43,7 +39,7 @@ const Footer = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={email} alt="" />
+          <img src={email} alt="Abdul-Qudus Olatunji" />
         </a>
       </div>
     </div>
