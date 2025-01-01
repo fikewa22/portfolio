@@ -26,7 +26,7 @@ const About = () => {
       </p>
       {/* experience section */}
       <div className="md:flex my-7 items-center">
-        <div className="text-primary text-8xl font-bold">2+</div>
+        <div className="text-primary text-8xl font-bold">5+</div>
         <p className="text-black text-2xl md:ml-5">
           Years of experience. Specialized in building interactive and
           responsive web applications ensuring a seamless web experience for
