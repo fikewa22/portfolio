@@ -24,7 +24,7 @@ const Home = () => {
 
   return (
     <div className="hero section" id="home">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-center justify-between w-full gap-12">
           {/* Text Content */}
           <div className="text-center md:text-left md:w-1/2 animate-slide-up">
