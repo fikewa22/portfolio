@@ -29,7 +29,7 @@ const Contact = () => {
     { icon: twitter, url: "https://twitter.com/fikewa22", label: "Twitter" },
     {
       icon: linkedin,
-      url: "https://www.linkedin.com/in/abdul-qudus-olatunji-07ba83114/",
+      url: "https://www.linkedin.com/in/fikewa-olatunji-07ba83114/",
       label: "LinkedIn",
     },
     { icon: email, url: "mailto:fikewaolatunji@gmail.com", label: "Email" },

@@ -10,7 +10,7 @@ const Footer = () => {
     { icon: twitter, url: "https://twitter.com/fikewa22", label: "Twitter" },
     {
       icon: linkedin,
-      url: "https://www.linkedin.com/in/abdul-qudus-olatunji-07ba83114/",
+      url: "https://www.linkedin.com/in/fikewa-olatunji-07ba83114/",
       label: "LinkedIn",
     },
     { icon: email, url: "mailto:fikewaolatunji@gmail.com", label: "Email" },
@@ -23,7 +23,7 @@ const Footer = () => {
           {/* Copyright */}
           <div className="text-center md:text-left">
             <p className="text-white font-medium">
-              © 2024 Fikewa Olatunji. All rights reserved.
+              © 2025 Fikewa Olatunji. All rights reserved.
             </p>
             <p className="text-white/80 text-sm mt-1">
               Full-Stack Software Engineer

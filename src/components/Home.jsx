@@ -41,8 +41,6 @@ const Home = () => {
               </h6>
               <h1 className="font-bold md:text-7xl text-5xl mb-6 leading-tight">
                 <span className="text-white">Fikewa</span>
-                <br />
-                <span className="text-white">Olatunji</span>
               </h1>
             </div>
 
